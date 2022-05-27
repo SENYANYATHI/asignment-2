@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head {
+    border-radius: 200px;
+    font-size: 100px;
+    height: auto;
+}
+body {
+   
+    background: url(./images/balenc.jpg);
+   background-image: url(./images/bg-pattern-desktop.svg);
+   background-position: 0px;
+   font-family: 'Josefin Sans',sans-serif;
+   
+}
+.container {
+    min-width: 100px;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 3 rem;
+    margin-top: 4rem;
+    float: left;
+}
+h1 {
+    color: hsl(0, 4%, 56%);
+    font-size: 4rem;
+    font-weight: 400;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: 400px;
+    color: hsla(0, 52%, 85%, 0.897);
+
+}
+
+img{
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+.image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+p{
+    font-size: 2rem;
+    color: lightpink;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+header ul li a {
+    display: flex;
+    float: left;
+    padding: 6px 16px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #f4aaabbf;
+}
+header ul li a:hover {
+    background: #f4aaabbf;
+    border: #f4aaabbf;
+    cursor: pointer;
+    list-style: none;
+    justify-content: space-between;
+    border-radius: 100px;
+    background-color: hsl(245, 236, 236);
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%, hsl(0, 100%, 98%)));
+    color: hsl(0, 0%, 100%);
+}
+button {
+    display: inline;
+    padding: 2.7re 7.5rem;
+    background: 1px lightpink ;
+    font-size: 2rem;
+    text-decoration: double;
+    color:  hsl(0, 6%, 24%);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+}
